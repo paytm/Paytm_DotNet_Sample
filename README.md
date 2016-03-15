@@ -5,6 +5,7 @@ These installation steps are for all versions of .net
 1. Add provided “paytm.dll” as a “Reference” in your project.
 2. Import namespace “paytm” in your project/solution with statement “using paytm”.
 3. The Generate CheckSum and Verify CheckSum methods are given below. Their respective usage is given in the next few points.
+
  ```sh
  string return method CheckSum.generateCheckSum(String merchantKey, Dictionary<String, String> parameters)
  Boolean return method CheckSum.verifyCheckSum(String merchantKey, Dictionary<String, String> parameters, String checkSum)
