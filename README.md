@@ -1,4 +1,4 @@
-# Installation Steps
+# Installation and Configuration Steps
 
 These installation steps are for all versions of .net
 
