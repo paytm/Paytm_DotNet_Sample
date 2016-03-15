@@ -61,7 +61,7 @@ These installation steps are for all versions of .net
 7. Use the following code snippet to Get the response and verify the checksumhash. 
  ```sh
  String merchantKey = “merchantKey value” ; // Replace the with the Merchant Key provided by Paytm at the time of registration.
- Boolean success = CheckSum.verifyCheckSum(merchantKey, parameters, checkSum);
+
  Dictionary<string, string> parameters = new Dictionary<string, string>();
  string paytmChecksum = "";
  foreach (string key in Request.Form.Keys)
