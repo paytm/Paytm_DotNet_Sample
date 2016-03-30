@@ -1,4 +1,8 @@
-# Installation and Configuration Steps for .net
+# Installation and Configuration Steps for .net and Classic ASP
+
+Installation and configuration steps for .net and Classic ASP are given separately in the following two sections.
+
+## 1 Installation and Configuration Steps for .net
 
 These installation steps are for all versions of .net
 
@@ -85,7 +89,7 @@ These installation steps are for all versions of .net
  }
  ```
 
-# Installation and Configuration steps for Classic ASP
+## 2 Installation and Configuration steps for Classic ASP
 
 1. Register the paytm.dll file on your server.
 2. Use the following code snippet for Checksum Generation. Provide all the values like MID value, Order Id, etc. as per your request.
