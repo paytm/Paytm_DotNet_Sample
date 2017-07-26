@@ -109,7 +109,7 @@ These installation steps are for all versions of .net
    
    https://docs.microsoft.com/en-us/dotnet/framework/tools/regasm-exe-assembly-registration-tool
    
-   ```sh
+   ```
 
 2. Use the following code snippet for Checksum Generation. Provide all the values like MID value, Order Id, etc. as per your request.
 
