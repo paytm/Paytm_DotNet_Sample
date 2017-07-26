@@ -92,6 +92,25 @@ These installation steps are for all versions of .net
 ## 2 Installation and Configuration steps for Classic ASP
 
 1. Register the paytm.dll file on your server.
+  
+   ```sh
+   
+   Go to below path in command prompt which is running with Administrator access.
+   
+   	C:\Windows\Microsoft.NET\Framework\v2.0.50727   ( choose framework as per your requirement )
+   
+   Write below command 
+   
+   	RegAsm "E:\foldername\paytm.dll" /codebase /tlb      ( file path can be changed as per directory structure )
+   
+   If command successfully compiled a tlb file is generated. 
+   
+   	Please refer below link for more information.
+   
+   https://docs.microsoft.com/en-us/dotnet/framework/tools/regasm-exe-assembly-registration-tool
+   
+   ```sh
+
 2. Use the following code snippet for Checksum Generation. Provide all the values like MID value, Order Id, etc. as per your request.
 
  ```sh
