@@ -33,7 +33,7 @@ These installation steps are for all versions of .net
  ```
 5. Define the Staging server Url here. Replace this with the Production server Url once you move to the production setup.
  ```sh
- string paytmURL = "https://pguat.paytm.com/oltp-web/processTransaction?orderid=" + orderid;
+ string paytmURL = "https://securegw-stage.paytm.in/theia/processTransaction?orderid=" + orderid;
  ```
 
 6. Use the following code snippet to make a form post. This will redirect the request to PG.
